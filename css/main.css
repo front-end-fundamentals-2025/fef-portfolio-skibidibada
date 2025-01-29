@@ -23,6 +23,17 @@ a {
   width: 30%;
 }
 
+.portfolio-img {
+  width: 30%;
+}
+.no-margin-left {
+  margin-left: 0;
+}
+
+figcaption {
+  font-size: x-large;
+}
+
 footer {
   margin-top: 3rem;
   border-top: 1px solid black;
