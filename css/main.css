@@ -72,6 +72,11 @@ main {
   width: 30%;
 }
 
+.plane {
+  animation-name: boom;
+  animation-duration: 1s;
+}
+
 .portfolio-img {
   width: 100%;
 }
