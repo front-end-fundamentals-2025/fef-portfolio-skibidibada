@@ -73,6 +73,7 @@ main {
 }
 
 .plane {
+  width: 30%;
   animation-name: boom;
   animation-duration: 1s;
 }
