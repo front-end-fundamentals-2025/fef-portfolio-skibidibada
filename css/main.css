@@ -75,7 +75,7 @@ main {
 .plane {
   width: 30%;
   animation-name: boom;
-  animation-duration: 1s;
+  animation-duration: 10s;
 }
 
 .portfolio-img {
@@ -89,6 +89,16 @@ figcaption {
   font-size: x-large;
 }
 
+@keyframes boom {
+  0% {
+    transform: translateY(100);
+    transform: translateY(600);
+  }
+  100% {
+    transform: translateY(200);
+    transform: translateY(700);
+  }
+}
 /* footer */
 
 footer {
