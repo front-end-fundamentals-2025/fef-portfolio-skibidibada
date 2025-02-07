@@ -96,10 +96,24 @@ figcaption {
     transform: translateX(1200px) translateY(0px) scale(1);
   }
   to {
-    transform: translateX(550px) translateY(-70px) scale(1.5) rotate(-20deg);
+    transform: translateX(600px) translateY(-140px) scale(1.5) rotate(-20deg);
+  }
+}
+@keyframes burn {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
   }
 }
 
+.fire {
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: backwards;
+  animation-name: burn;
+}
 /* footer */
 
 footer {
