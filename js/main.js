@@ -5,3 +5,5 @@ window.dontClick = function () {
   document.getElementById("planeinvis").style.display = "block";
   document.getElementById("fireinvis").style.display = "block";
 };
+
+document.getElementById("dontClk").addEventListener("click", dontClick);
