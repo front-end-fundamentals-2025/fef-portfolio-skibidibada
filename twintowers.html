@@ -23,7 +23,13 @@
       </nav>
     </header>
     <main>
-      <div class="plane">
+      <button
+        style="position: absolute; top: 150px; right: 900px"
+        onclick="dontClick()"
+      >
+        Don't click this
+      </button>
+      <div id="planeinvis" class="plane">
         <img
           src="img/plane.png"
           alt="a plane"
@@ -36,14 +42,14 @@
           "
         />
       </div>
-      <div class="fire">
+      <div id="fireinvis" class="fire">
         <img
           src="img/fire.png"
           alt="a fire"
           style="
             position: absolute;
-            top: 13%;
-            right: 85%;
+            top: 200px;
+            right: 1550px;
             z-index: 1;
             width: 10%;
           "
