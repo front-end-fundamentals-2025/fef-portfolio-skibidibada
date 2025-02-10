@@ -7,3 +7,4 @@ window.dontClick = function () {
 };
 
 document.getElementById("dontClk").addEventListener("click", dontClick);
+// aaa
